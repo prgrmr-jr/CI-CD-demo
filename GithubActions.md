@@ -49,7 +49,7 @@ To set up and use self-hosted runners in GitHub Actions, follow these steps:
         jobs:
             build:
 
-                runs-on: ubuntu-latest
+                runs-on: self-hosted
 
             strategy:
                 matrix:
